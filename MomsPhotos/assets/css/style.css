@@ -8,48 +8,38 @@ body {
     padding: 0;
 }
 
-
 /*---------Navigation--------*/
 
 #nav-bar {
     position: sticky;
     top: 0;
     z-index: 10;
-}
+} 
 
-.navbar-brand img {
-    height: 40px;
-    padding-left: 30px;
-}
 
-.navbar-nav li {
-    padding: 0 10px;
-}
-
-.navbar-nav li a {
-    float; right;
-    text-align: left;
+.navbar {
+    border: 0;
+    margin: 5px;
+    font-size: 25px;
+    background: rgba(12, 11, 11, 0.795)
 }
 
 #nav-bar ul li a:hover {
     color: #007bff!important;
 }
 
-.navbar {
-    background: #fff;
+
+#navbar_pages a {
+    color: #007bff;
 }
 
-.navbar-toggler {
-    border: none!important;
+#navbar_pages a:hover {
+    background-color: transparent;
+    color: rgb(36, 35, 33), 0.87);
 }
 
-.nav-link {
-    color: #555!important;
-    font-weight: 600;
-    font-size: 16px;
-}
 
-/*-------Slider------*/
+/*-------Slider-----
 
 #slider {
     width: 100%;
@@ -65,6 +55,7 @@ body {
     color: #fff;
     font-size: 42px;
 }
+----------*/
 
 /*-------------About--------*/
 
@@ -428,6 +419,8 @@ blockquote::after {
     transition: 0.5s;
 }
 
+/*---------Contact Form-------*/
+
 #contact {
     background: #efefef;
     padding-top: 40px;
@@ -454,7 +447,7 @@ blockquote::after {
     margin: 15px;
 }
 
-.contact-info {
+.contact-form {
     margin: 10px;
     color: #007bff;
     font-weight: bold;
